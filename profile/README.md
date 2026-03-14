@@ -1,17 +1,15 @@
 # driftsys
 
-Open source tooling and processes for safety-critical
-embedded systems.
+Open source tooling and processes for safety-critical embedded systems.
 
-We explore how modern software engineering — Rust,
-code-as-everything, reactive architectures — can work inside
-regulated environments like automotive, avionics, rail, and
-medical devices, without fighting the compliance frameworks
+We explore how modern software engineering — Rust, code-as-everything, reactive
+architectures — can work inside regulated environments like automotive,
+avionics, rail, and medical devices, without fighting the compliance frameworks
 already in place.
 
 ## Principles
 
-Safety, cybersecurity, and performance come first.
+Safety, security, and performance come first.
 
 - Everything as code
 - Simplicity as a discipline
@@ -19,23 +17,18 @@ Safety, cybersecurity, and performance come first.
 - Compatibility with existing toolchains
 - Fault avoidance by design
 
-> Failures will happen — defects don't have to. We prevent
-> them by design and mitigate so they never become faults.
+> Failures will happen — defects don't have to. We prevent them by design and
+> mitigate so they never become faults.
 
 ## Projects
 
-| Project      | Description                                                                                                                                                                      |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [fast-track] | A lightweight development process — fast, compliant, simple, basic                                                                                                               |
-| [markspec]   | Traceable industrial documentation in pure Markdown — requirement authoring, ULID-based traceability, and compliance reporting without leaving Git                               |
-| [ridl]       | Reactive Interface Description Language — a transport-neutral DSL for service contracts, with codegen for Proto3, FlatBuffers, SOME/IP, CAN/DBC, AIDL, AsyncAPI, ARXML, and more |
-
-## Tooling
-
-| Project     | Description                                                                     |
-| ----------- | ------------------------------------------------------------------------------- |
-| [git-std]   | Conventional commits, versioning, changelog, and release management in one tool |
-| [repofolio] | Repository blueprint for progressive adoption of polyglot ecosystems            |
+| Project      | Description                                                                     |
+| ------------ | ------------------------------------------------------------------------------- |
+| [fast-track] | A lightweight development process — fast, compliant, simple, basic              |
+| [markspec]   | Traceable requirements and compliance reporting in pure Markdown                |
+| [ridl]       | Transport-neutral system modeling language with multi-target codegen            |
+| [git-std]    | Conventional commits, versioning, changelog, and release management in one tool |
+| [repofolio]  | Repository blueprint for progressive adoption of polyglot ecosystems            |
 
 ## Contact
 
