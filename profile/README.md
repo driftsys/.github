@@ -32,8 +32,8 @@ Safety, security, and performance come first.
 
 ## Contact
 
-- General: contact@driftsys.org
-- Security: security@driftsys.org
+- General: <contact@driftsys.org>
+- Security: <security@driftsys.org>
 
 [fast-track]: https://github.com/driftsys/fast-track
 [markspec]: https://github.com/driftsys/markspec
