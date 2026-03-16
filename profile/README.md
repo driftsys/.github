@@ -20,6 +20,13 @@ Safety, security, and performance come first.
 > Failures will happen — defects don't have to. We prevent them by design and
 > mitigate so they never become faults.
 
+## AI policy
+
+We use [Anthropic] and accept AI-assisted contributions, in the spirit of the
+[Linux Foundation Generative AI Policy][lf-ai]. We prefer providers that are
+[Frontier AI Safety Commitments][faisc] signatories. Humans decide, AI
+assists. Same review and quality bar for all code.
+
 ## Projects
 
 | Project      | Description                                                                     |
@@ -40,3 +47,6 @@ Safety, security, and performance come first.
 [ridl]: https://github.com/driftsys/ridl
 [git-std]: https://github.com/driftsys/git-std
 [repofolio]: https://github.com/driftsys/repofolio
+[faisc]: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024
+[Anthropic]: https://www.anthropic.com
+[lf-ai]: https://www.linuxfoundation.org/blog/linux-foundation-generative-ai-policy

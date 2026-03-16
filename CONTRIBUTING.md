@@ -9,6 +9,19 @@ security vulnerabilities, see [SECURITY.md](SECURITY.md).
 
 This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md).
 
+## AI policy
+
+We use AI and accept AI-assisted contributions, in the spirit of the
+[Linux Foundation Generative AI Policy][lf-ai]. We prefer providers that are
+[Frontier AI Safety Commitments][faisc] signatories. Humans decide, AI
+assists. Same review and quality bar for all code.
+
+- AI assists execution — humans own direction, architecture, and design.
+- If you submit it, you own it — regardless of origin.
+- Do not merge code you do not fully understand.
+- Include a `Co-Authored-By` trailer for AI contributions.
+- Contributors ensure AI-generated content complies with the project license.
+
 ## Commit messages
 
 Follow [Conventional Commits][cc]. Write the description in imperative mood —
@@ -19,19 +32,25 @@ Types: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `ci`, `build`,
 
 Squash work into one conventional commit per task.
 
-## Branches and pull requests
+## Pull requests
 
 1. Create a branch from `main` with a short, descriptive name — e.g.,
    `42-fix-tag-detection`.
 2. Implement the change with tests.
-3. Make sure all checks pass before opening the PR.
-4. Reference the related issue in the PR description.
-5. Every PR ships implementation, tests, and documentation together.
+3. One conventional commit per PR. Squash cleanup commits before pushing.
+4. Make sure all checks pass before opening the PR.
+5. Reference the related issue in the PR description.
+6. Every PR ships implementation, tests, and documentation together.
+7. Merge with `--merge`, not `--squash`.
+
+For the planning model, issue types, and severity/priority matrix, see
+[PROCESS.md](PROCESS.md).
 
 ## Code review
 
 Reviews check for functionality, complexity, naming, tests, and documentation.
-Be respectful — assume competence and goodwill.
+Use intention-revealing names — nouns for types, verbs for functions, one word
+per concept. Be respectful — assume competence and goodwill.
 
 ## Coding style
 
@@ -61,18 +80,6 @@ Configurations follow community best practices.
 > [Android Kotlin interop guide].
 
 <!-- markdownlint-enable MD028 -->
-
-### Meaningful names
-
-Follow the "Clean Code" naming rules:
-
-- Use intention-revealing names.
-- Avoid disinformation — don't call something a `list` if it isn't one.
-- Make meaningful distinctions.
-- Use pronounceable, searchable names.
-- Avoid encodings and prefixes.
-- Class/struct names should be nouns; function names should be verbs.
-- Pick one word per concept and stick with it.
 
 ## Documentation style
 
@@ -122,3 +129,5 @@ guide][gdsg]:
   https://developer.android.com/kotlin/common-patterns
 [Android Kotlin interop guide]: https://developer.android.com/kotlin/interop
 [gdsg]: https://developers.google.com/style
+[faisc]: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024
+[lf-ai]: https://www.linuxfoundation.org/blog/linux-foundation-generative-ai-policy
