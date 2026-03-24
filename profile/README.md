@@ -33,7 +33,7 @@ assists. Same review and quality bar for all code.
 | ------------ | ------------------------------------------------------------------------------- |
 | [fast-track] | A lightweight development process — fast, compliant, simple, basic              |
 | [markspec]   | Traceable requirements and compliance reporting in pure Markdown                |
-| [refhub]     | [Registry][refhub-site] of standards, regulations, and process models           |
+| [refhub]     | [Registry][refhub-site] of standards, regulations, and technical publications   |
 | [ridl]       | Transport-neutral system modeling language with multi-target codegen             |
 | [git-std]    | Conventional commits, versioning, changelog, and release management in one tool |
 | [repofolio]  | Repository blueprint for progressive adoption of polyglot ecosystems            |
