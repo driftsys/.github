@@ -41,8 +41,8 @@ assists. Same review and quality bar for all code.
 | Project            | Description                                                                |
 | ------------------ | -------------------------------------------------------------------------- |
 | [ridl]             | Family of languages for modeling component-based reactive systems          |
-| [dashscene]        | Figma-to-pixels rendering pipeline for embedded displays (experimental)    |
-| [safeio]           | Deterministic async runtime for safety-critical systems (future work)      |
+| [dashscene]        | Figma-to-pixels rendering pipeline for embedded displays (incubating)      |
+| [safeio]           | Deterministic async runtime for safety-critical systems (planned)          |
 
 ### Repository and release tooling
 
@@ -50,7 +50,7 @@ assists. Same review and quality bar for all code.
 | ----------- | ------------------------------------------------------------------------------- |
 | [git-std]   | Conventional commits, versioning, changelog, and release management in one tool |
 | [prim]      | Zero-config formatter for Markdown, JSON/JSONC, YAML, and TOML                  |
-| [folio]     | Reference CLI for the Repofolio standard (pre-alpha)                            |
+| [folio]     | Reference CLI for the Repofolio standard (incubating)                           |
 | [schemas]   | JSON Schemas for project manifests and tooling configuration                    |
 | [dock]      | Lean, layered CI Docker images                                                  |
 | [ci]        | Reusable GitHub Actions and GitLab CI components                                |
