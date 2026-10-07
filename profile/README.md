@@ -29,15 +29,50 @@ assists. Same review and quality bar for all code.
 
 ## Projects
 
-| Project      | Description                                                                     |
-| ------------ | ------------------------------------------------------------------------------- |
-| [fast-track] | A lightweight development process — fast, compliant, simple, basic              |
-| [markspec]   | Traceable requirements and compliance reporting in pure Markdown                |
-| [refhub]     | [Registry][refhub-site] of standards, regulations, and technical publications   |
-| [ridl]       | Transport-neutral system modeling language with multi-target codegen             |
-| [git-std]    | Conventional commits, versioning, changelog, and release management in one tool |
-| [repofolio]  | Repository blueprint for progressive adoption of polyglot ecosystems            |
-| [board]      | Cross-cutting planning — epics, ADRs, and program management                   |
+### Process and compliance
+
+| Project      | Description                                                                   |
+| ------------ | ----------------------------------------------------------------------------- |
+| [fast-track] | A lightweight development process — fast, compliant, simple, basic            |
+| [markspec]   | Markdown flavor and toolchain for traceable industrial documentation          |
+| [refhub]     | [Registry][refhub-site] of standards, regulations, and technical publications |
+
+### System modeling and runtimes
+
+| Project            | Description                                                                |
+| ------------------ | -------------------------------------------------------------------------- |
+| [ridl]             | Family of languages for modeling component-based reactive systems          |
+| [ridlc-gen-kotlin] | RIDL Kotlin code generator plugin and runtime library                      |
+| [dashscene]        | Figma-to-pixels rendering pipeline for embedded displays                   |
+| [safeio]           | Deterministic async runtime for safety-critical systems (early design)     |
+
+### Repository and release tooling
+
+| Project     | Description                                                                     |
+| ----------- | ------------------------------------------------------------------------------- |
+| [git-std]   | Conventional commits, versioning, changelog, and release management in one tool |
+| [prim]      | Zero-config formatter for Markdown, JSON/JSONC, YAML, and TOML                  |
+| [repofolio] | Repository blueprint for progressive adoption of polyglot ecosystems            |
+| [folio]     | Reference CLI for the Repofolio standard (pre-alpha)                            |
+| [schemas]   | JSON Schemas for project manifests and tooling configuration                    |
+| [pgit]      | Git-based package registry with an append-only archive mode (early scaffold)    |
+| [dock]      | Lean, layered CI Docker images                                                  |
+| [ci]        | Reusable GitHub Actions and GitLab CI components                                |
+
+### Coding agents
+
+| Project        | Description                                                                 |
+| -------------- | --------------------------------------------------------------------------- |
+| [upskill]      | Lightweight package manager for agent rules, skills, and agents             |
+| [metapowers]   | Skills registry extending Superpowers with durable engineering records      |
+| [diagctl]      | CLI for the metapowers tech-diagramming quality gate                        |
+| [context-book] | [Reference book][context-book-site] on context engineering (EN/FR)          |
+
+### Planning
+
+| Project | Description                                                 |
+| ------- | ----------------------------------------------------------- |
+| [board] | Cross-cutting planning — epics, ADRs, and program management |
 
 ## Contact
 
@@ -49,8 +84,22 @@ assists. Same review and quality bar for all code.
 [refhub]: https://github.com/driftsys/refhub
 [refhub-site]: https://driftsys.github.io/refhub/
 [ridl]: https://github.com/driftsys/ridl
+[ridlc-gen-kotlin]: https://github.com/driftsys/ridlc-gen-kotlin
+[dashscene]: https://github.com/driftsys/dashscene
+[safeio]: https://github.com/driftsys/safeio
 [git-std]: https://github.com/driftsys/git-std
+[prim]: https://github.com/driftsys/prim
 [repofolio]: https://github.com/driftsys/repofolio
+[folio]: https://github.com/driftsys/folio
+[schemas]: https://github.com/driftsys/schemas
+[pgit]: https://github.com/driftsys/pgit
+[dock]: https://github.com/driftsys/dock
+[ci]: https://github.com/driftsys/ci
+[upskill]: https://github.com/driftsys/upskill
+[metapowers]: https://github.com/driftsys/metapowers
+[diagctl]: https://github.com/driftsys/diagctl
+[context-book]: https://github.com/driftsys/context-book
+[context-book-site]: https://driftsys.github.io/context-book/
 [board]: https://github.com/driftsys/board
 [faisc]: https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024
 [Anthropic]: https://www.anthropic.com
